@@ -1,8 +1,8 @@
 <style>
     :root{
         --baseline:1.7778rem;
-        --site-color:#00c266;
-        --text-color:#1d2129;
+        --site-color:#ffd700;
+        --text-color:#000000;
         --meta-color:#90949c;
         --monospace:"Input Mono","Source Code Pro","Monaco",monospace;
         --sans-serif-fallback:"BlinkMacSystemFont",-apple-system,"Helvetica Neue",Helvetica,sans-serif;
@@ -101,7 +101,7 @@ a{
     color:inherit
 }
 a:hover{
-    color:#00c266;
+    color:#ffd700;
     color:var(--site-color)
 }
 html{
@@ -214,8 +214,8 @@ html{
 
 :root{
     --baseline:1.7778rem;
-    --site-color:#00c266;
-    --text-color:#1d2129;
+    --site-color:#ffd700;
+    --text-color:#000000;
     --meta-color:#90949c;
     --monospace:"Input Mono","Source Code Pro","Monaco",monospace;
     --sans-serif-fallback:"BlinkMacSystemFont",-apple-system,"Helvetica Neue",Helvetica,sans-serif;
