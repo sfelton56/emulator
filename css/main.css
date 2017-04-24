@@ -1,7 +1,22 @@
 <style>
-    :root{--baseline:1.7778rem;--site-color:#00c266;--text-color:#1d2129;--meta-color:#90949c;--monospace:"Input Mono","Source Code Pro","Monaco",monospace;--sans-serif-fallback:"BlinkMacSystemFont",-apple-system,"Helvetica Neue",Helvetica,sans-serif;--sans-serif:"Neue Haas Unica Web","BlinkMacSystemFont",-apple-system,"Helvetica Neue",Helvetica,sans-serif;--sans-serif:"Neue Haas Unica Web",var(--sans-serif-fallback);--serif-fallback:"Georgia","Times New Roman",serif;--serif:"Tiempos Text Web","Georgia","Times New Roman",serif;--serif:"Tiempos Text Web",var(--serif-fallback)}*{margin:0;padding:0;position:relative;box-sizing:border-box}button,input,textarea{font:inherit}
+    :root{
+        --baseline:1.7778rem;
+        --site-color:#00c266;
+        --text-color:#1d2129;
+        --meta-color:#90949c;
+        --monospace:"Input Mono","Source Code Pro","Monaco",monospace;
+        --sans-serif-fallback:"BlinkMacSystemFont",-apple-system,"Helvetica Neue",Helvetica,sans-serif;
+        --sans-serif:"Neue Haas Unica Web","BlinkMacSystemFont",-apple-system,"Helvetica Neue",Helvetica,sans-serif;
+        --sans-serif:"Neue Haas Unica Web",var(--sans-serif-fallback);
+        --serif-fallback:"Georgia","Times New Roman",serif;
+        --serif:"Tiempos Text Web","Georgia","Times New Roman",serif;
+        --serif:"Tiempos Text Web",var(--serif-fallback)}*{margin:0;padding:0;position:relative;box-sizing:border-box}
+button,input,textarea{
+    font:inherit
+}
 blockquote,figure,form,h1,h2,ol,p,pre,table,ul{
-  margin-bottom:1.7778rem;margin-bottom:var(--baseline)
+  margin-bottom:1.7778rem;
+    margin-bottom:var(--baseline)
 }
 img{
   max-width:100%
@@ -12,11 +27,199 @@ ol,ul{
 li ol,li ul{
   margin-bottom:0
 }
-.b{display:block}
-.ib{display:inline-block}
-.hide{position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border:0}
-.pas{padding:.44445rem;padding:calc(var(--baseline) / 4)}
-.pam{padding:.8889rem;padding:calc(var(--baseline) / 2)}
-.pal{padding:1.7778rem;padding:var(--baseline)}
-.phs{padding-left:.44445rem;padding-left:calc(var(--baseline) / 4);padding-right:.44445rem;padding-right:calc(var(--baseline) / 4)}.phm{padding-left:.8889rem;padding-left:calc(var(--baseline) / 2);padding-right:.8889rem;padding-right:calc(var(--baseline) / 2)}.phl{padding-left:1.7778rem;padding-left:var(--baseline);padding-right:1.7778rem;padding-right:var(--baseline)}.pvs{padding-top:.44445rem;padding-top:calc(var(--baseline) / 4);padding-bottom:.44445rem;padding-bottom:calc(var(--baseline) / 4)}.pvm{padding-top:.8889rem;padding-top:calc(var(--baseline) / 2);padding-bottom:.8889rem;padding-bottom:calc(var(--baseline) / 2)}.pvl{padding-top:1.7778rem;padding-top:var(--baseline);padding-bottom:1.7778rem;padding-bottom:var(--baseline)}.m0{margin:0}.ml{margin-bottom:1.7778rem;margin-bottom:var(--baseline)}*{margin:0;padding:0;box-sizing:border-box;position:relative}header{position:static}a{color:inherit}a:hover{color:#00c266;color:var(--site-color)}html{min-height:100vh;max-width:100vw;overflow-x:hidden;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;font:100%/1.5 Neue Haas Unica Web,BlinkMacSystemFont,-apple-system,Helvetica Neue,Helvetica,sans-serif;font:100%/1.5 var(--sans-serif);-webkit-font-smoothing:antialiased;color:#25282b;background-color:#d1cdc7;background-image:url(/static/images/t1.svg),url(/static/images/t2.svg),url(/static/images/t3.svg),url(/static/images/t4.svg);background-repeat:no-repeat;background-position:top 1.5rem center,center right 1.5rem,bottom 1.5rem center,center left 1.5rem}.wrap,body{position:static}.wrap{perspective:800px;perspective-origin:top}.main{transform-style:preserve-3d;will-change:transform}.main-wrap{display:-ms-flexbox;display:flex;-ms-flex-align:stretch;align-items:stretch;width:100vw;height:100vh;max-width:1000px;max-height:500px}.fl50{-ms-flex:1 1 50%;flex:1 1 50%}.site-title{position:absolute;top:-3rem;left:-1.5rem;width:4em;z-index:1;color:#fff;font-weight:400;font-size:4.5rem;letter-spacing:-.03em;line-height:1;transform:translateZ(50px) scale(.95);cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.main-image{margin:0;overflow:hidden;background-color:#010001;transform-style:preserve-3d;will-change:transform}.main-image__image{width:100%;height:100%;object-fit:cover;position:absolute;transform:scale(1.05)}.main-content{padding:3rem;background-color:#fff;transform:translateZ(1px)}.uc-badge{position:absolute;top:-3.5rem;right:-3.5rem;animation:a 7.5s infinite linear;transform:rotate(0);transform-origin:center center;will-change:transform;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}@keyframes a{to{transform:rotate(1turn)}}.emegg{fill:#fff}.emegg.em-poop{fill:#6a4f3b}.emegg.em-hundred{fill:#f35369}.emegg.em-sparkles{fill:#fcd872}.emegg.em-peace{fill:#f1d2b6}.emegg path{fill:inherit}@media (max-width:1000px){html{min-height:none;padding:2.5rem;font-size:87.5%;background-size:auto .5rem,.5rem auto;background-position:top 1rem center,center right 1rem,bottom 1rem center,center left 1rem}.main-wrap{max-height:none;max-width:500px;height:auto;width:auto;-ms-flex-direction:column;flex-direction:column}.fl50{-ms-flex:none;flex:none}.main-content{padding:1.5rem}.main-image{height:40vh;min-height:12rem}.uc-badge{display:none}.site-title{font-size:2.5rem;top:-1rem;left:-1rem;transform:none}}:root{--baseline:1.7778rem;--site-color:#00c266;--text-color:#1d2129;--meta-color:#90949c;--monospace:"Input Mono","Source Code Pro","Monaco",monospace;--sans-serif-fallback:"BlinkMacSystemFont",-apple-system,"Helvetica Neue",Helvetica,sans-serif;--sans-serif:"Neue Haas Unica Web","BlinkMacSystemFont",-apple-system,"Helvetica Neue",Helvetica,sans-serif;--serif-fallback:"Georgia","Times New Roman",serif;--serif:"Tiempos Text Web","Georgia","Times New Roman",serif}
+.b{
+    display:block
+}
+.ib{
+    display:inline-block
+}
+.hide{
+    position:absolute;overflow:hidden;
+    clip:rect(0 0 0 0);
+    height:1px;
+    width:1px;
+    margin:-1px;
+    padding:0;
+    border:0
+}
+.pas{
+    padding:.44445rem;padding:calc(var(--baseline) / 4)
+}
+.pam{
+    padding:.8889rem;padding:calc(var(--baseline) / 2)
+}
+.pal{
+    padding:1.7778rem;padding:var(--baseline)
+}
+.phs{
+    padding-left:.44445rem;
+    padding-left:calc(var(--baseline) / 4);
+    padding-right:.44445rem;
+    padding-right:calc(var(--baseline) / 4)
+}
+.phm{
+    padding-left:.8889rem;
+    padding-left:calc(var(--baseline) / 2);
+    padding-right:.8889rem;
+    padding-right:calc(var(--baseline) / 2)
+}
+.phl{
+    padding-left:1.7778rem;
+    padding-left:var(--baseline);
+    padding-right:1.7778rem;
+    padding-right:var(--baseline)
+}
+.pvs{
+    padding-top:.44445rem;
+    padding-top:calc(var(--baseline) / 4);
+    padding-bottom:.44445rem;
+    padding-bottom:calc(var(--baseline) / 4)
+}
+.pvm{
+    padding-top:.8889rem;
+    padding-top:calc(var(--baseline) / 2);
+    padding-bottom:.8889rem;
+    padding-bottom:calc(var(--baseline) / 2)
+}
+.pvl{
+    padding-top:1.7778rem;
+    padding-top:var(--baseline);
+    padding-bottom:1.7778rem;
+    padding-bottom:var(--baseline)
+}
+.m0{
+    margin:0
+}
+.ml{
+    margin-bottom:1.7778rem;
+    margin-bottom:var(--baseline)}*{margin:0;padding:0;box-sizing:border-box;position:relative
+}
+header{
+    position:static
+}
+a{
+    color:inherit
+}
+a:hover{
+    color:#00c266;
+    color:var(--site-color)
+}
+html{
+    min-height:100vh;
+    max-width:100vw;overflow-x:hidden;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-align:center;
+    align-items:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    font:100%/1.5 Neue Haas Unica Web,BlinkMacSystemFont,-apple-system,Helvetica Neue,Helvetica,sans-serif;
+    font:100%/1.5 var(--sans-serif);
+    -webkit-font-smoothing:antialiased;
+    color:#25282b;
+    background-color:#d1cdc7;
+    background-image:url(/static/images/t1.svg),url(/static/images/t2.svg),url(/static/images/t3.svg),url(/static/images/t4.svg);
+    background-repeat:no-repeat;
+    background-position:top 1.5rem center,center right 1.5rem,bottom 1.5rem center,center left 1.5rem
+}
+.wrap,body{
+    position:static
+}
+.wrap{
+    perspective:800px;
+    perspective-origin:top
+}
+.main{
+    transform-style:preserve-3d;
+    will-change:transform}
+.main-wrap{
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-align:stretch;
+    align-items:stretch;
+    width:100vw;
+    height:100vh;
+    max-width:1000px;
+    max-height:500px}
+.fl50{
+    -ms-flex:1 1 50%;
+    flex:1 1 50%
+}
+.site-title{
+    position:absolute;
+    top:-3rem;
+    left:-1.5rem;
+    width:4em;
+    z-index:1;
+    color:#fff;
+    font-weight:400;
+    font-size:4.5rem;
+    letter-spacing:-.03em;
+    line-height:1;
+    transform:translateZ(50px) scale(.95);
+    cursor:default;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none}
+.main-image{
+    margin:0;
+    overflow:hidden;
+    background-color:#010001;transform-style:preserve-3d;will-change:transform}
+.main-image__image{width:100%;height:100%;object-fit:cover;position:absolute;transform:scale(1.05)}
+.main-content{padding:3rem;background-color:#fff;transform:translateZ(1px)}
+.uc-badge{
+    position:absolute;
+    top:-3.5rem;
+    right:-3.5rem;
+    animation:a 7.5s infinite linear;
+    transform:rotate(0);
+    transform-origin:center center;
+    will-change:transform;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+@keyframes a{to{transform:rotate(1turn)}}
+.emegg{fill:#fff}
+.emegg.em-poop{fill:#6a4f3b}
+.emegg.em-hundred{fill:#f35369}
+.emegg.em-sparkles{fill:#fcd872}
+.emegg.em-peace{fill:#f1d2b6}
+.emegg path{fill:inherit}
+
+@media (max-width:1000px){html{
+        min-height:none;
+    padding:2.5rem;
+    font-size:87.5%;
+    background-size:auto .5rem,.5rem auto;background-position:top 1rem center,center right 1rem,bottom 1rem center,center left 1rem
+    }
+    .main-wrap{
+        max-height:none;max-width:500px;height:auto;width:auto;-ms-flex-direction:column;flex-direction:column
+    }
+    .fl50{
+        -ms-flex:none;flex:none
+    }
+    .main-content{
+        padding:1.5rem
+    }
+    .main-image{
+        height:40vh;min-height:12rem
+    }
+    .uc-badge{display:none}
+    .site-title{
+        font-size:2.5rem;top:-1rem;left:-1rem;transform:none}
+}
+
+:root{
+    --baseline:1.7778rem;
+    --site-color:#00c266;
+    --text-color:#1d2129;
+    --meta-color:#90949c;
+    --monospace:"Input Mono","Source Code Pro","Monaco",monospace;
+    --sans-serif-fallback:"BlinkMacSystemFont",-apple-system,"Helvetica Neue",Helvetica,sans-serif;
+    --sans-serif:"Neue Haas Unica Web","BlinkMacSystemFont",-apple-system,"Helvetica Neue",Helvetica,sans-serif;
+    --serif-fallback:"Georgia","Times New Roman",serif;
+    --serif:"Tiempos Text Web","Georgia","Times New Roman",serif}
   </style>
