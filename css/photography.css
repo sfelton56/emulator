@@ -1,6 +1,16 @@
 <style>
+
 img{
   max-width:100%;
   padding: 1em;
+}
+
+content{
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 5em;
+  bottom: 0;
 }
 </style>
