@@ -183,10 +183,8 @@ html{
 }
 @keyframes a{to{transform:rotate(1turn)}}
 .emegg{fill:#fff}
-.emegg.em-poop{fill:#6a4f3b}
 .emegg.em-hundred{fill:#f35369}
 .emegg.em-sparkles{fill:#fcd872}
-.emegg.em-peace{fill:#f1d2b6}
 .emegg path{fill:inherit}
 
 @media (max-width:1000px){html{
