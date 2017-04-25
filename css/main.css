@@ -172,7 +172,7 @@ html{
     position:absolute;
     top:-3.5rem;
     right:-3.5rem;
-    animation:a 7.5s infinite linear;
+    animation:a 7s infinite linear;
     transform:rotate(0);
     transform-origin:center center;
     will-change:transform;
