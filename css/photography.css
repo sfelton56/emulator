@@ -15,6 +15,10 @@ a:focus,a:hover{
 p{
   margin-bottom:1.5rem
 }
+h1{
+  font-size: 2em;
+  color: #ffd700;
+}
 .frac{
   -webkit-font-feature-settings:"frac" 1;
   font-feature-settings:"frac" 1
