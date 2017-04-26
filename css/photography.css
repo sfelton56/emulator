@@ -1,5 +1,5 @@
 :root{
-  --accent:#ef540d}*{padding:0;margin:0;box-sizing:border-box;position:relative
+  --accent:#ffd700}*{padding:0;margin:0;box-sizing:border-box;position:relative
 }
 html{
   height:100%;
@@ -17,7 +17,6 @@ p{
 }
 h1{
   font-size: 2em;
-  color: #ffd700;
 }
 .frac{
   -webkit-font-feature-settings:"frac" 1;
@@ -85,8 +84,8 @@ h1{
   -o-object-fit:cover;
   object-fit:cover;
   height:calc(100vh - 9rem);
-  -webkit-transition:opacity .3s ease;
-  transition:opacity .3s ease;
+  -webkit-transition:opacity .5s ease;
+  transition:opacity .5s ease;
   opacity:1
 }
 @media (orientation:portrait){
@@ -94,5 +93,9 @@ h1{
     height:calc(95vh - 9rem)
   }
 }
-.image__img.is-not-loaded{opacity:0}
-.u-mb0{margin-bottom:0}
+.image__img.is-not-loaded{
+  opacity:0
+}
+.u-mb0{
+  margin-bottom:0
+}
