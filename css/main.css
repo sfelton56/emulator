@@ -34,7 +34,8 @@ li ol,li ul{
     display:inline-block
 }
 .hide{
-    position:absolute;overflow:hidden;
+    position:absolute;
+    overflow:hidden;
     clip:rect(0 0 0 0);
     height:1px;
     width:1px;
@@ -95,7 +96,8 @@ li ol,li ul{
     margin-bottom:var(--baseline)}*{margin:0;padding:0;box-sizing:border-box;position:relative
 }
 header{
-    position:static
+    position:static;
+    text-decoration:none;
 }
 a{
     color:#000000;
