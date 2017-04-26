@@ -3,7 +3,8 @@
 }
 html{
   height:100%;
-  font:87.5%/1.5 -apple-system,BlinkMacSystemFont,SF UI,Helvetica Neue,sans-serif;-webkit-text-size-adjust:100%;
+  font:87.5%/1.5 -apple-system,BlinkMacSystemFont,SF UI,Helvetica Neue,sans-serif;
+  -webkit-text-size-adjust:100%;
   overflow:hidden
 }
 a{
@@ -19,6 +20,7 @@ p{
 }
 h1{
   font-size: 2em;
+  text-decoration:none;
 }
 .frac{
   -webkit-font-feature-settings:"frac" 1;
