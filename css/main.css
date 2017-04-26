@@ -16,7 +16,7 @@ button,input,textarea{
 }
 blockquote,figure,form,h1,h2,ol,p,pre,table,ul{
   margin-bottom:1.7778rem;
-    margin-bottom:var(--baseline)
+  margin-bottom:var(--baseline)
 }
 img{
   max-width:100%
@@ -98,11 +98,13 @@ header{
     position:static
 }
 a{
-    color:#000000
+    color:#000000;
+    text-decoration:none;
 }
 a:hover{
     color:#ffd700;
-    color:var(--site-color)
+    color:var(--site-color);
+    text-decoration:none;
 }
 html{
     min-height:100vh;
