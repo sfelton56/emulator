@@ -80,7 +80,7 @@ h1{
 }
 .pane--text{
   min-width:50vw;
-  max-width:10em
+  max-width:15em
 }
 .pane__image{
   background-color:#eee;
