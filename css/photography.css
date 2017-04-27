@@ -55,6 +55,7 @@ h1{
   padding:2rem;
   text-decoration:none;
   font-weight:800;
+  text-align:right;
 }
 .site-content{
   -webkit-box-flex:1;
