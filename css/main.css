@@ -227,7 +227,7 @@ html{
 }
 
 :root{
-    --baseline:1.7778rem;
+    --baseline:2rem;
     --site-color:#ffd700;
     --text-color:#000000;
     --meta-color:#90949c;
