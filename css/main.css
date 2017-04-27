@@ -22,7 +22,8 @@ img{
   max-width:100%
 }
 ol,ul{
-  padding-left:1.7778rem;padding-left:var(--baseline)
+  padding-left:1.7778rem;
+  padding-left:var(--baseline);
 }
 li ol,li ul{
   margin-bottom:0
@@ -130,7 +131,7 @@ html{
     position:static
 }
 .wrap{
-    perspective:800px;
+    perspective:750px;
     perspective-origin:top
 }
 .main{
