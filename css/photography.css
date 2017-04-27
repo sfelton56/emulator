@@ -79,8 +79,9 @@ h1{
   vertical-align:top
 }
 .pane--text{
-  min-width:75vw;
-  max-width:30em
+  padding-top:3vw;
+  min-width:50vw;
+  max-width:10em
 }
 .pane__image{
   background-color:#eee;margin-bottom:1.5rem
