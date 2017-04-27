@@ -75,7 +75,7 @@ h1{
   display:table-cell;
   height:100%;
   width:auto;
-  padding-right:1rem;
+  padding-right:.5rem;
   vertical-align:top
 }
 .pane--text{
