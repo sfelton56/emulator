@@ -54,7 +54,6 @@ h1{
 .site-header{
   padding:2rem;
   text-decoration:none;
-  font-weight:800;
   text-align:right;
 }
 .site-content{
@@ -80,7 +79,6 @@ h1{
   vertical-align:top
 }
 .pane--text{
-  padding-top:3vw;
   min-width:50vw;
   max-width:10em
 }
