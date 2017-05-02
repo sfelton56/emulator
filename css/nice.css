@@ -7,6 +7,6 @@ img {
 }
 
 body  {
-  background="gdc.png";
+  background-image: url("gdc.png");
   background-repeat:no-repeat;
 }
