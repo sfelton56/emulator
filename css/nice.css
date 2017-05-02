@@ -6,6 +6,7 @@ img {
   float:right;
 }
 
-bg  {
+body  {
+  background="gdc.png";
   background-repeat:no-repeat;
 }
