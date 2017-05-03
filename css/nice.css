@@ -10,4 +10,5 @@ img {
 body  {
   background-image: url("https://sfelton56.github.io/orange/nice/gdc.png");
   background-repeat:no-repeat;
+  background-size:cover;
 }
