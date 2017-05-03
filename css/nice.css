@@ -2,7 +2,8 @@ p {
   color:red;
 }
 img {
-  padding-right: 25%;
+  padding-right: 25vm;
+  padding-top: 50vm;
   float:right;
 }
 
