@@ -123,7 +123,6 @@ html{
     -webkit-font-smoothing:antialiased;
     color:#25282b;
     background-color:#FFC966;
-    background-image:url(/static/images/t1.svg),url(/static/images/t2.svg),url(/static/images/t3.svg),url(/static/images/t4.svg);
     background-repeat:no-repeat;
     background-position:top 1.5rem center,center right 1.5rem,bottom 1.5rem center,center left 1.5rem
 }
