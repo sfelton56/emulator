@@ -237,9 +237,12 @@ html{
     --serif:"Tiempos Text Web","Georgia","Times New Roman",serif}
 
 .time{
-    color:white;
-    z-index:-3;
-    float:bottom;
-    margin:auto;
+	margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	color:white;
 }
   </style>
