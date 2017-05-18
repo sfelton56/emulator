@@ -238,11 +238,11 @@ html{
 
 .time{
 	margin: 0;
-    position: absolute;
-    top: 100%;
-    bottom: 1%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-	color:white;
+  	position: absolute;
+	top: 100%;
+	bottom: 1%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color:#90949c;
 }
   </style>
