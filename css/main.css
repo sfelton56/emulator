@@ -236,7 +236,7 @@ html{
     --serif-fallback:"Georgia","Times New Roman",serif;
     --serif:"Tiempos Text Web","Georgia","Times New Roman",serif}
 
-time{
+.time{
     color:white;
     z-index:-3;
     float:bottom;
