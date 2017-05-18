@@ -130,7 +130,7 @@ html{
     position:static
 }
 .wrap{
-    perspective:750px;
+    perspective:800px;
     perspective-origin:top
 }
 .main{
