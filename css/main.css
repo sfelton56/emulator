@@ -239,6 +239,7 @@ html{
 time{
     color:white;
     z-index:-3;
-    
+    float:bottom;
+    margin:auto;
 }
   </style>
