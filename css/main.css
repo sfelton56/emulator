@@ -236,10 +236,14 @@ html{
     --serif-fallback:"Georgia","Times New Roman",serif;
     --serif:"Tiempos Text Web","Georgia","Times New Roman",serif}
 
-.time {
-    position: fixed;
-    right: 0;
-    margin-bottom: 30px;
+.time{
+    margin: 0;
+    position: absolute;
+    bottom: 1%;
+    right: 33.333333333333333333333333333333333333%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color:white;
     z-index: 5;
 }
   </style>
