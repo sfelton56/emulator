@@ -366,13 +366,6 @@ function canvasApp() {
 		//draw
 		exportCanvasContext.drawImage(displayCanvas, 0,0,displayWidth,displayHeight,0,0,displayWidth,displayHeight);
 		
-		//add printed url to image
-		exportCanvasContext.fillStyle = urlColor;
-		exportCanvasContext.font = 'bold italic 16px Helvetica, Arial, sans-serif';
-		exportCanvasContext.textBaseline = "top";
-		var metrics = exportCanvasContext.measureText("rectangleworld.com");
-		exportCanvasContext.fillText("rectangleworld.com", displayWidth - metrics.width - 10, 5);
-		
 		//we will open a new window with the image contained within:		
 		//retrieve canvas image as data URL:
 		var dataURL = exportCanvas.toDataURL("image/png");
