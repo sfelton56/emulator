@@ -241,7 +241,7 @@ html{
     position: absolute;
     bottom: 1%;
     right: 1%;
-    color:white;
+    color:#FFC966;
     z-index: 5;
 }
 .time:hover{
