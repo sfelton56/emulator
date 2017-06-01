@@ -244,5 +244,8 @@ html{
     color:white;
     z-index: 5;
 }
+.time:hover{
+    color:black;
+}
 
   </style>
