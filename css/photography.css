@@ -80,7 +80,7 @@ h1{
   vertical-align:top
 }
 .pane--text{
-  min-width:50vw;
+  min-width:25vw;
   max-width:15em
 }
 .pane__image{
