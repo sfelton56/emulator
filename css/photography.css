@@ -30,7 +30,7 @@ div{
   width:80px;
   max-height:500px;
   margin:0;
-  background:#abc;
+  background:#000000;
   overflow-y:auto;
   overflow-x:hidden;
   transform:rotate(-90deg) translateY(-80px);
