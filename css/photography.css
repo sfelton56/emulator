@@ -7,6 +7,9 @@ html{
   -webkit-text-size-adjust:100%;
   overflow:hidden
 }
+body {
+  background: #00000;
+}
 
 
 
