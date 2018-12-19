@@ -19,10 +19,6 @@ div{
   box-sizing:border-box;
 }
 
-body {
-  background: #111;
-}
-
 .horizontal-scroll-wallpaper{
   position:absolute;
   display:block;
