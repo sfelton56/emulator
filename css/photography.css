@@ -8,7 +8,7 @@ html{
   overflow:hidden
 }
 body {
-  background: #00000;
+  background: #ffffff;
 }
 
 
@@ -30,7 +30,7 @@ div{
   width:80px;
   max-height:500px;
   margin:0;
-  background:#000000;
+  background:#ffffff;
   overflow-y:auto;
   overflow-x:hidden;
   transform:rotate(-90deg) translateY(-80px);
