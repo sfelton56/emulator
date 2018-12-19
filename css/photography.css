@@ -7,6 +7,22 @@ html{
   -webkit-text-size-adjust:100%;
   overflow:hidden
 }
+
+.horizontal-scroll-wrapper{
+  position:absolute;
+  display:block;
+  top:0;
+  left:0;
+  width:80px;
+  max-height:500px;
+  margin:0;
+  background:#abc;
+  overflow-y:auto;
+  overflow-x:hidden;
+  transform:rotate(-90deg) translateY(-80px);
+  transform-origin:right top;
+}
+
 a{
   color:inherit;
   text-decoration:none;;
