@@ -8,7 +8,22 @@ html{
   overflow:hidden
 }
 
-.horizontal-images{
+
+
+
+
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+
+div{
+  box-sizing:border-box;
+}
+
+body {
+  background: #111;
+}
+
+.horizontal-scroll-wallpaper{
   position:absolute;
   display:block;
   top:0;
@@ -22,6 +37,28 @@ html{
   transform:rotate(-90deg) translateY(-80px);
   transform-origin:right top;
 }
+.horizontal-scroll-wrapper > div{
+  display:block;
+  padding:5px;
+  background:#cab;
+  transform:rotate(90deg);
+  transform-origin: right top;
+}
+
+.images{
+  padding:60px 0 0 0;
+}
+
+.images > div{
+  width:60px;
+  height:60px;
+  margin:10px;
+}
+
+
+
+
+
 
 a{
   color:inherit;
