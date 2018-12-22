@@ -25,6 +25,8 @@ p{
   font-feature-settings:"smcp" 1,"c2sc" 1}
 .site-title{
   float:right;
+  padding-top:1rem;
+  padding-bottom:1rem;
   font-weight:400;
   font-size:1rem
 }
