@@ -24,6 +24,7 @@ p{
   -webkit-font-feature-settings:"smcp" 1,"c2sc" 1;
   font-feature-settings:"smcp" 1,"c2sc" 1}
 .site-title{
+  float:right;
   font-weight:400;
   font-size:1rem
 }
