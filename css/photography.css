@@ -135,6 +135,7 @@ h1{
 .pane--text{
   min-width:25vw;
   max-width:15em
+  padding-left:5px;
 }
 .pane__image{
   background-color:#eee;
