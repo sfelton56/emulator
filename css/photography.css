@@ -35,6 +35,7 @@ div{
   overflow-x:hidden;
   transform:rotate(-90deg) translateY(-80px);
   transform-origin:right top;
+  padding:10px;
 }
 .horizontal-scroll-wrapper > div{
   display:block;
