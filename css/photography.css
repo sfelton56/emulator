@@ -27,7 +27,7 @@ div{
   display:block;
   top:0;
   left:0;
-  width:80px;
+  width:auto;
   max-height:500px;
   margin:0;
   background:#ffffff;
@@ -35,7 +35,7 @@ div{
   overflow-x:hidden;
   transform:rotate(-90deg) translateY(-80px);
   transform-origin:right top;
-  padding:10px;
+  padding:8px;
 }
 .horizontal-scroll-wrapper > div{
   display:block;
@@ -122,7 +122,7 @@ h1{
   -webkit-align-items:baseline;
   -ms-flex-align:baseline;
   align-items:baseline;
-  padding-left:3rem;
+  padding-left:8px;
   padding-bottom:0;
 }
 .pane{
