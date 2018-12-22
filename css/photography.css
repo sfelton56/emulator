@@ -1,7 +1,7 @@
 :root{--accent:#54be71;--imgHeight:100vh}*{padding:0;margin:0;-webkit-box-sizing:border-box;box-sizing:border-box;position:relative}
 html{
-  background-color:#1c1d1d;
-  color:#fbfbfb;
+  background-color:#ffffff;
+  color:#ffffff;
   font:87.5%/1.5 system-ui,-apple-system,BlinkMacSystemFont,SF UI,Helvetica Neue,sans-serif;
   height:100%;
   overflow:hidden;
