@@ -23,7 +23,6 @@ div{
 }
 
 .horizontal-scroll-wallpaper{
-  float:left;
   position:relative;
   display:block;
   top:0;
@@ -84,6 +83,11 @@ h1{
   -webkit-font-feature-settings:"smcp" 1,"c2sc" 1;
   font-feature-settings:"smcp" 1,"c2sc" 1
 }
+.side-by-side
+    {
+      float:left;
+      padding:0px 20px;
+    }
 .site-title{
   font-weight:700;font-size:1rem;
   text-decoration:none;
@@ -111,7 +115,6 @@ h1{
   text-decoration:none;
 }
 .site-content{
-  float:left;
   -webkit-box-flex:1;
   -webkit-flex:1 0 auto;
   -ms-flex:1 0 auto;
