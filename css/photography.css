@@ -35,11 +35,11 @@ div{
   overflow-x:hidden;
   transform:rotate(-90deg) translateY(-80px);
   transform-origin:right top;
-  padding:8px;
+  padding:0px;
 }
 .horizontal-scroll-wrapper > div{
   display:block;
-  padding:5px;
+  padding:1px;
   background:#cab;
   transform:rotate(90deg);
   transform-origin: right top;
