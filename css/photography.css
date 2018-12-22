@@ -27,8 +27,8 @@ div{
   display:block;
   top:0;
   left:0;
-  width:auto;
-  max-height:500px;
+  width:5000px;
+  max-height:auto;
   margin:0;
   background:#ffffff;
   overflow-y:auto;
